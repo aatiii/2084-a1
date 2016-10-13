@@ -13,13 +13,13 @@ namespace a1 {
     public partial class _default {
         
         /// <summary>
-        /// rbtLstEducation control.
+        /// g1result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rbtLstEducation;
+        protected global::System.Web.UI.WebControls.RadioButtonList g1result;
         
         /// <summary>
         /// g1score control.
@@ -31,13 +31,13 @@ namespace a1 {
         protected global::System.Web.UI.WebControls.TextBox g1score;
         
         /// <summary>
-        /// TextBox1 control.
+        /// g1allow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox g1allow;
         
         /// <summary>
         /// g1spec control.
@@ -49,112 +49,121 @@ namespace a1 {
         protected global::System.Web.UI.WebControls.TextBox g1spec;
         
         /// <summary>
-        /// RadioButtonList1 control.
+        /// g2result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList g2result;
         
         /// <summary>
-        /// TextBox2 control.
+        /// g2score control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox g2score;
         
         /// <summary>
-        /// TextBox3 control.
+        /// g2allow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox g2allow;
         
         /// <summary>
-        /// TextBox4 control.
+        /// g2spec control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox g2spec;
         
         /// <summary>
-        /// RadioButtonList2 control.
+        /// g3result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList2;
+        protected global::System.Web.UI.WebControls.RadioButtonList g3result;
         
         /// <summary>
-        /// TextBox5 control.
+        /// g3score control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox g3score;
         
         /// <summary>
-        /// TextBox6 control.
+        /// g3allow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox g3allow;
         
         /// <summary>
-        /// TextBox7 control.
+        /// g3spec control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox g3spec;
         
         /// <summary>
-        /// RadioButtonList3 control.
+        /// g4result control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList3;
+        protected global::System.Web.UI.WebControls.RadioButtonList g4result;
         
         /// <summary>
-        /// TextBox8 control.
+        /// g4score control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox g4score;
         
         /// <summary>
-        /// TextBox9 control.
+        /// g4allow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox g4allow;
         
         /// <summary>
-        /// TextBox10 control.
+        /// g4spec control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10;
+        protected global::System.Web.UI.WebControls.TextBox g4spec;
+        
+        /// <summary>
+        /// warnings control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl warnings;
         
         /// <summary>
         /// btnCal control.
@@ -229,21 +238,21 @@ namespace a1 {
         protected global::System.Web.UI.WebControls.Label lblDiff;
         
         /// <summary>
-        /// lblAttend control.
+        /// lblSpect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAttend;
+        protected global::System.Web.UI.WebControls.Label lblSpect;
         
         /// <summary>
-        /// lblAvgAttend control.
+        /// lblAvgSpect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAvgAttend;
+        protected global::System.Web.UI.WebControls.Label lblAvgSpect;
     }
 }

@@ -12,11 +12,11 @@
                 <div class="form-group">
                     <label for="g1result" class="col-sm-4 control-label">Result:</label>
                     <div class="col-sm-8">
-                        <asp:RadioButtonList ID="rbtLstEducation" runat="server" 
+                        <asp:RadioButtonList ID="g1result" runat="server" 
                             RepeatDirection="Vertical" RepeatLayout="Table">
-                            <asp:ListItem Text="Win" Value="Win"></asp:ListItem>
-                            <asp:ListItem Text="Loss" Value="Loss"></asp:ListItem>
-                        </asp:RadioButtonList>
+                            <asp:ListItem Text="Win" Value="1"></asp:ListItem>
+                            <asp:ListItem Text="Loss" Value="0"></asp:ListItem>
+                        </asp:RadioButtonList>    
                     </div>
                 </div>
                 <div class="form-group">
@@ -28,7 +28,7 @@
                 <div class="form-group">
                     <label for="g1allow" class=" col-sm-4 control-label">Allowed:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox1" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g1allow" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>
                 <div class="form-group">
@@ -36,37 +36,37 @@
                     <div class="col-sm-8">
                         <asp:TextBox ID="g1spec" runat="server" class="form-control" type="number" min="0" required />
                     </div>
-                </div>                
+                </div>          
             </div>
 
             <div class="col-sm-3 col-md-3 well">                
                 <h3 class="text-center">Game 2</h3>
                 <div class="form-group">
-                    <label for="g1result" class="col-sm-4 control-label">Result:</label>
+                    <label for="g2result" class="col-sm-4 control-label">Result:</label>
                     <div class="col-sm-8">
-                        <asp:RadioButtonList ID="RadioButtonList1" runat="server" 
+                        <asp:RadioButtonList ID="g2result" runat="server" 
                             RepeatDirection="Vertical" RepeatLayout="Table">
-                            <asp:ListItem Text="Win" Value="Win"></asp:ListItem>
-                            <asp:ListItem Text="Loss" Value="Loss"></asp:ListItem>
+                            <asp:ListItem Text="Win" Value="1"></asp:ListItem>
+                            <asp:ListItem Text="Loss" Value="0"></asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1score" class="col-sm-4 control-label">Scored:</label>
+                    <label for="g2score" class="col-sm-4 control-label">Scored:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox2" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g2score" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1allow" class=" col-sm-4 control-label">Allowed:</label>
+                    <label for="g2allow" class=" col-sm-4 control-label">Allowed:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox3" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g2allow" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1spec" class="col-sm-4 control-label">Spectators:</label>
+                    <label for="g2spec" class="col-sm-4 control-label">Spectators:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox4" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g2spec" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>                
             </div>
@@ -74,31 +74,31 @@
             <div class="col-sm-3 col-md-3 well">                
                 <h3 class="text-center">Game 3</h3>
                 <div class="form-group">
-                    <label for="g1result" class="col-sm-4 control-label">Result:</label>
+                    <label for="g3result" class="col-sm-4 control-label">Result:</label>
                     <div class="col-sm-8">
-                        <asp:RadioButtonList ID="RadioButtonList2" runat="server" 
+                        <asp:RadioButtonList ID="g3result" runat="server" 
                             RepeatDirection="Vertical" RepeatLayout="Table">
-                            <asp:ListItem Text="Win" Value="Win"></asp:ListItem>
-                            <asp:ListItem Text="Loss" Value="Loss"></asp:ListItem>
+                            <asp:ListItem Text="Win" Value="1"></asp:ListItem>
+                            <asp:ListItem Text="Loss" Value="0"></asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1score" class="col-sm-4 control-label">Scored:</label>
+                    <label for="g3score" class="col-sm-4 control-label">Scored:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox5" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g3score" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1allow" class=" col-sm-4 control-label">Allowed:</label>
+                    <label for="g3allow" class=" col-sm-4 control-label">Allowed:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox6" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g3allow" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1spec" class="col-sm-4 control-label">Spectators:</label>
+                    <label for="g3spec" class="col-sm-4 control-label">Spectators:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox7" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g3spec" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>                
             </div>
@@ -106,33 +106,37 @@
             <div class="col-sm-3 col-md-3 well">                
                 <h3 class="text-center">Game 4</h3>
                 <div class="form-group">
-                    <label for="g1result" class="col-sm-4 control-label">Result:</label>
+                    <label for="g4result" class="col-sm-4 control-label">Result:</label>
                     <div class="col-sm-8">
-                        <asp:RadioButtonList ID="RadioButtonList3" runat="server" 
+                        <asp:RadioButtonList ID="g4result" runat="server" 
                             RepeatDirection="Vertical" RepeatLayout="Table">
-                            <asp:ListItem Text="Win" Value="Win"></asp:ListItem>
-                            <asp:ListItem Text="Loss" Value="Loss"></asp:ListItem>
+                            <asp:ListItem Text="Win" Value="1"></asp:ListItem>
+                            <asp:ListItem Text="Loss" Value="0"></asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1score" class="col-sm-4 control-label">Scored:</label>
+                    <label for="g4score" class="col-sm-4 control-label">Scored:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox8" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g4score" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1allow" class=" col-sm-4 control-label">Allowed:</label>
+                    <label for="g4allow" class=" col-sm-4 control-label">Allowed:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox9" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g4allow" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="g1spec" class="col-sm-4 control-label">Spectators:</label>
+                    <label for="g4spec" class="col-sm-4 control-label">Spectators:</label>
                     <div class="col-sm-8">
-                        <asp:TextBox ID="TextBox10" runat="server" class="form-control" type="number" min="0" required />
+                        <asp:TextBox ID="g4spec" runat="server" class="form-control" type="number" min="0" required />
                     </div>
                 </div>                
+            </div>
+
+            <div class="well col-lg-12" id="warnings" Visible="false" runat="server">
+             <p class="text-danger">Game result is required.</p>
             </div>
 
         </div> <!-- end row -->
@@ -161,10 +165,10 @@
                 Points Differential: <asp:Label ID="lblDiff" runat="server" />
             </div>
             <div>
-                Total Attendance: <asp:Label ID="lblAttend" runat="server" />
+                Total Spectators: <asp:Label ID="lblSpect" runat="server" />
             </div>
             <div>
-                Average Attendance: <asp:Label ID="lblAvgAttend" runat="server" />
+                Average Spectators: <asp:Label ID="lblAvgSpect" runat="server" />
             </div>
 
         </div>
