@@ -23,7 +23,8 @@ namespace a1
             int gameLoss = 0;
 
             // validate game result            
-            if ((g1result.SelectedIndex > -1) && (g2result.SelectedIndex > -1) && (g3result.SelectedIndex > -1) && (g4result.SelectedIndex > -1))
+            if ((g1result.SelectedIndex > -1) && (g2result.SelectedIndex > -1) && (g3result.SelectedIndex > -1) 
+                && (g4result.SelectedIndex > -1))
             {
                 warnings.Visible = false;
                 // convert game result into int
@@ -54,10 +55,11 @@ namespace a1
                 }
 
             }
+            // if radio box empty, show warning and hide results
             else
             {
+                results.Visible = false;
                 warnings.Visible = true;
-                RequiredFieldValidator.ErrorMessage = "Game Result is required";
             }
 
             // display game results

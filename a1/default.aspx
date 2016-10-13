@@ -6,7 +6,7 @@
         <h1>Game Calculator</h1>
         <div class="container-fluid">
         <div class="row">
-
+            <!-- Game 1 -->
             <div class="col-sm-3 col-md-3 well">                
                 <h3 class="text-center">Game 1</h3>
                 <div class="form-group">
@@ -38,7 +38,7 @@
                     </div>
                 </div>          
             </div>
-
+            <!-- Game 2 -->
             <div class="col-sm-3 col-md-3 well">                
                 <h3 class="text-center">Game 2</h3>
                 <div class="form-group">
@@ -70,7 +70,7 @@
                     </div>
                 </div>                
             </div>
-
+            <!-- Game 3 -->
             <div class="col-sm-3 col-md-3 well">                
                 <h3 class="text-center">Game 3</h3>
                 <div class="form-group">
@@ -102,7 +102,7 @@
                     </div>
                 </div>                
             </div>
-
+            <!-- Game 4 -->
             <div class="col-sm-3 col-md-3 well">                
                 <h3 class="text-center">Game 4</h3>
                 <div class="form-group">
@@ -134,7 +134,7 @@
                     </div>
                 </div>                
             </div>
-
+            <!-- Warning -->
             <div class="well col-lg-12" id="warnings" Visible="false" runat="server">
              <p class="text-danger">Game result is required.</p>
             </div>
@@ -142,10 +142,12 @@
         </div> <!-- end row -->
         </div>
         <div class="text-center">
-            <asp:button class="btn btn-success" id="btnCal" runat="server" Text="Summary" OnClick="btnCal_Click"/>
+            <asp:button class="btn btn-success" id="btnCal" runat="server" Text="Summary"
+                style="margin-bottom: 20px;" OnClick="btnCal_Click"/>
         </div>
+        <!-- Summary -->
         <div class="well col-lg-12" id="results" Visible="false" runat="server">
-            <h3>Results: </h3>
+            <h3>Result Summary: </h3>
             <div>
                 Wins: <asp:Label ID="lblWin" runat="server" />
             </div>
