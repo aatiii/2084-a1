@@ -56,7 +56,8 @@
     </form>
 
     <footer class="blog-footer">
-      <p>Hailun Li</p>
+        <p>Hailun Li</p>
+        <p>COMP2084 Assignment 1</p>
     </footer>
 
     <!-- JavaScript -->    
