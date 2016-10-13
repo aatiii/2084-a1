@@ -87,7 +87,7 @@ namespace a1
             int g2allowInt = Convert.ToInt32(g2allow.Text);
             int g3allowInt = Convert.ToInt32(g3allow.Text);
             int g4allowInt = Convert.ToInt32(g4allow.Text);
-            // display total score
+            // display total allow
             int totalAllow = g1allowInt + g2allowInt + g3allowInt + g4allowInt;
             lblPallow.Text = totalAllow.ToString();
 
@@ -102,7 +102,7 @@ namespace a1
             int g2specInt = Convert.ToInt32(g2spec.Text);
             int g3specInt = Convert.ToInt32(g3spec.Text);
             int g4specInt = Convert.ToInt32(g4spec.Text);
-            // display total score
+            // display total spectators
             int totalSpec = g1specInt + g2specInt + g3specInt + g4specInt;
             lblSpect.Text = totalSpec.ToString();            
 
